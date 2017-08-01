@@ -347,9 +347,33 @@ footer {
   transition:1s;
 }
 
-.is-sticky .header{       /*Added transition and background-color the header class.*/
+.is-sticky .header{   /*Added transition and background-color the header class.*/
 
  background-color: black;
 
 
 }
+
+
+.is-sticky h5{
+transition:3s;
+background-color:hsla(360, 100%, 100%, 0.59);
+padding:12px 0;
+margin-top:65px;
+color:black;
+
+
+}
+
+
+.is-sticky a{
+
+color:black;
+
+
+}
+
+
+
+
+

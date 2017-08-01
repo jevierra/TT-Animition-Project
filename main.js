@@ -24,15 +24,47 @@ $(".animsition").animsition(
 $('.header').sticky();
 
 
-$('header').on('sticky-start', function(){
-$('.description').html('We build <strong>great</strong> apps');
+$('.header').on( 'sticky-start', function() {
 
-}
-);
+	$('.description').html('We build <strong> great </strong> apps');
+
+});
 
 
-$('header').on('sticky-end', function(){
-$('.description').html('We build really<strong>great</strong> apps');
+$('.header').on( 'sticky-end',  function() {
 
-}
-);
+	$('.description').html("We build great apps");
+
+});
+
+
+
+/* --- Email us sticky --- */
+
+
+
+$('.WeLuvWork').sticky();
+
+$('h5').on('sticky-start', function(){
+
+	$('.WeLuvWork').html("<a href='mailto:me@me.com'> <strong> Email Us </strong> </a> ")
+
+
+});
+
+$('h5').on('sticky-end', function(){
+
+	$('.WeLuvWork').html("Want us to work on your project?")
+
+
+});
+
+
+
+
+
+
+
+
+
+
