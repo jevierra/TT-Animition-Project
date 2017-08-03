@@ -96,6 +96,14 @@ $('h5').on('sticky-end', function(){
 
 
 
-$('.slides').slick();
+$('.slides').slick({
 
+ fade:true,
+ autoplay:true,
+ autoplaySpeed:2000,
+arrows:false
+
+
+
+});
 
