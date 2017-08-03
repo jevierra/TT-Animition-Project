@@ -96,6 +96,6 @@ $('h5').on('sticky-end', function(){
 
 
 
-
+$('.slides').slick();
 
 
