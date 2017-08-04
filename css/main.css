@@ -350,6 +350,7 @@ footer {
 .is-sticky .header{   /*Added transition and background-color the header class.*/
 
  background-color: black;
+ z-index: 1000;
 
 
 }
@@ -372,6 +373,24 @@ color:black;
 
 
 }
+
+
+
+
+/* slick styles */
+
+
+.slick-dots li button:before{
+
+  font-size:16px;
+  color:black;
+
+
+
+
+}
+
+
 
 
 

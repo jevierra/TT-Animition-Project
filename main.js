@@ -62,8 +62,8 @@ $('h5').on('sticky-end', function(){
 
 
 
-
-/* -- Slick way of appending the href & adding a class, then removing the class with the sticky-end event 
+/*
+ -- Slick way of appending the href & adding a class, then removing the class with the sticky-end event 
 
 --->
 Links:
@@ -71,7 +71,7 @@ https://remysharp.com/2007/04/12/jquerys-this-demystified
 http://api.jquery.com/append/
 https://api.jquery.com/remove/
 http://www.learningjquery.com/2007/08/what-is-this
---->
+--->*/
 
 
 $('h5').on('sticky-start', function(){
@@ -90,18 +90,13 @@ $('h5').on('sticky-end', function(){
 
 
 
-
-*/
-
-
-
-
 $('.slides').slick({
 
  fade:true,
  autoplay:true,
  autoplaySpeed:2000,
-arrows:false
+ arrows:false,
+ dots:true
 
 
 
